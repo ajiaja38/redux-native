@@ -9,9 +9,7 @@ import type { AnyAction } from "redux"
 
 import { userReducer } from "./reducer/userReducer"
 
-const rootReducer = combineReducers({
-  userList: userReducer,
-})
+const rootReducer = combineReducers({ userList: userReducer })
 
 export type RootState = ReturnType<typeof rootReducer>
 export type AppDispatch = ThunkDispatch<RootState, unknown, AnyAction>
