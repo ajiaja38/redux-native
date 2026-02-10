@@ -22,7 +22,7 @@ const App = (): JSX.Element => {
       <div className='container mx-auto p-3'>
         {loading && (
           <div className='px-4 py-2 w-full border-4 border-amber-400 border-l-4 border-l-red-500 bg-amber-400 rounded mb-4'>
-            <h1>Loading...</h1>
+            <h1>Loading.....</h1>
           </div>
         )}
         {error && (
